@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.set_page_config(layout="centered")
+
 # Função para adicionar dígitos e operações à expressão
 def add_to_expression(symbol):
     if st.session_state['expression'] == '0':
